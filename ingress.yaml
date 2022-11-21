@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: bns-nginx
   rules:
-  - host: be.example.com
+  - host: bunny.example.com
     http:
       paths:
       - backend:

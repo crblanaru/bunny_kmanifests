@@ -3,7 +3,7 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    io.kompose.service: backend
+    app: backend
   name: backend
 spec:
   ports:
@@ -11,6 +11,6 @@ spec:
     port: 80
     targetPort: 80
   selector:
-    io.kompose.service: backend
+    app: backend
 status:
   loadBalancer: {}
